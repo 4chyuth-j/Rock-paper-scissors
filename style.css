@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+h1{
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    background-color: #001A6E;
+    color: #E1FFBB;
+    height: 5rem;
+    line-height: 5rem;
+}
+body{
+    background-color: #E1FFBB;
+}
+.choice{
+    /* font-family: "Edu AU VIC WA NT Arrows", cursive; */
+    font-family: cursive;
+    height: 120px;
+    width: 120px;
+    background-color: #f3eda9;
+    border-radius: 50%;
+    border: 2px solid rgb(235, 205, 7);
+    font-weight: 900;
+    transition-duration: 0.2s;
+}
+.choice:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    border: 3px solid rgb(238, 175, 14);
+}
+#rock{
+    color: #FE2BF1;
+}
+#scissors{
+    color: #0B7FF0;
+}
+#paper{
+    color: #08DBBB;
+}
+.choice i{
+    margin-top: 1rem;
+    font-size: 4.5rem;
+}
+.choices{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.score_board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    font-size: 1.7rem;
+    margin-top: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001A6E;
+    font-family: cursive;
+}
+.msg-container{
+    margin-top: 3rem;
+}
+#msg{
+    background-color: #001A6E;
+    color: beige;
+    font-size: 2rem;
+    font-family: cursive;
+    display: inline;
+    padding: 1rem;
+    border-radius: 0.9rem;
+    border: 2px solid rgb(102, 204, 241);
+
+}
